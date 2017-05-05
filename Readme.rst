@@ -13,15 +13,15 @@ These should be placed inside of the ``~/.nano/`` directory.
 Or for system-wide installation ``/usr/share/nano-syntax-highlighting/``.
 In other words::
 
-    git clone git@github.com:scopatz/nanorc.git ~/.nano
+    git clone git@github.com:ritiek/nanorc.git ~/.nano
 
 *Note - if you have any issues (ssh was not properly configured), alternatively use::
 
-    git clone https://github.com/scopatz/nanorc.git ~/.nano
+    git clone https://github.com/ritiek/nanorc.git ~/.nano
     
 *System wide will look like so*::
 
-    sudo git clone https://github.com/scopatz/nanorc.git /usr/share/nano-syntax-highlighting/
+    sudo git clone https://github.com/ritiek/nanorc.git /usr/share/nano-syntax-highlighting/
 
 
 2. Configure ``nano``
@@ -51,11 +51,11 @@ where ``$install_path`` is ``/usr/share/nano-syntax-highlighting`` or ``~/.nano/
 ~~~~~~~~~~~~~~~~~~~~~~
 Finally, you can run an automatic installer using the following code::
 
-    $ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+    $ curl https://raw.githubusercontent.com/ritiek/nanorc/master/install.sh | bash
 
 or alternatively::
 
-    $ wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
+    $ wget https://raw.githubusercontent.com/ritiek/nanorc/master/install.sh -O- | bash
 
 *Note -
     some syntax definitions which exist in Nano upstream may be preferable to the ones provided by this package.
