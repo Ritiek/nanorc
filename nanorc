@@ -70,7 +70,7 @@ set historylog
 ## double click), and execute shortcuts.  The mouse will work in the X
 ## Window System, and on the console when gpm is running.
 ##
-set mouse
+# set mouse
 
 ## Allow multiple file buffers (inserting a file will put it into a
 ## separate buffer).  You must have configured with --enable-multibuffer
