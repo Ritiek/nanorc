@@ -1,6 +1,7 @@
 # Nano syntax file
 # Language:     Kotlin
 # Maintainer:   Bjarne Holen <bjarneholen@gmail.com>
+# Edited by:    Ritiek Malhotra <ritiekmalhotra123@gmail.com>
 # Last Change:  2017 May 24
 
 syntax "kotlin" "\.kt$" "\.kts$"
