@@ -10,6 +10,7 @@ color yellow "[.:;,+*|=!\%@]" "<" ">" "/" "-" "&"
 color green "\<(namespace|as|type|class|this|super|val|var|fun|is|in|object|when|trait|import|where|by|get|set|abstract|enum|open|annotation|override|private|public|internal|protected|out|vararg|inline|final|package)\>"
 color yellow "\<(true|false|null)\>"
 color cyan "\<(break|catch|continue|do|else|finally|for|if|return|throw|try|while|repeat)\>"
+color brightred "\<(inner|outer)\>"
 ##
 ## String highlighting.  You will in general want your comments and
 ## strings to come last, because syntax highlighting rules will be
